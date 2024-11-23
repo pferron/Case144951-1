@@ -103,7 +103,7 @@
     "graphql-redis-subscriptions": "^2.6.1",
     "graphql-subscriptions": "^1.2.1",
     "graphql-tag": "^2.12.6",
-    "hot-shots": "^9.3.0",
+    "hot-shots": "^10.0.0",
     "ioredis": "^4.28.5",
     "ip": "^2.0.1",
     "jest": "^29.7.0",
