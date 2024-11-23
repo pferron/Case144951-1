@@ -146,7 +146,7 @@
       "@babel/traverse": "^7.23.2",
       "trim-newlines": "^3.0.1",
       "follow-redirects": "1.15.6",
-      "got": "^11.8.6"
+      "got": "^14.0.0"
     }
   }
 }
