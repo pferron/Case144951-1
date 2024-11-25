@@ -30,41 +30,9 @@
     "issueType": "repo"
   },
   "remediateSettings": {
-    "enableRenovate": true,
-    "extends": ["config:base"];
     "workflowRules": {
       "enabled": true
-    },
-
-
-  "packageRules": [
-        {
-          "groupName": "Dependencies",
-          "matchPaths": ["**/pom.xml", "packages/**/package.json"],
-          "packagePatterns": ["*"]
-        },
-      {
-        "groupName": "Tools Dependencies",
-        "matchFiles": [".tool-versions"],
-        "matchUpdateTypes": ["minor", "patch"],
-        "packagePatterns": ["*"]
-      },
-      {
-        "excludePackageNames": ["*"],
-        "groupName": "CDF Dependency",
-        "matchFiles": ["package.json"],
-        "matchPackageNames": ["@cvent/cdf"],
-        "matchUpdateTypes": ["minor", "patch"]
-      },
-      {
-        "excludePackageNames": ["@cvent/cdf"],
-        "groupName": "Root dependencies",
-        "matchFiles": ["package.json", ".tool-versions"],
-        "matchPackagePatterns": ["*"]
-      }
-    ]
-
-
+    }
   },
    "imageSettings":{
        "imageTracing":{
@@ -75,4 +43,3 @@
        }
    }
 }
-
