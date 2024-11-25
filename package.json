@@ -99,7 +99,7 @@
     "eslint-plugin-testing-library": "^5.11.1",
     "expect-webdriverio": "^3.6.0",
     "express": "^4.19.2",
-    "graphql": "15.8.0",
+    "graphql": "15.9.0",
     "graphql-redis-subscriptions": "^2.6.1",
     "graphql-subscriptions": "^1.2.1",
     "graphql-tag": "^2.12.6",
