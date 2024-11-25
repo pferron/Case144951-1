@@ -40,7 +40,7 @@
     "@jest/globals": "^29.7.0",
     "@jest/reporters": "^29.7.0",
     "@jest/types": "^29.6.3",
-    "@lhci/cli": "^0.11.1",
+    "@lhci/cli": "^0.14.0",
     "@next/env": "^12.3.4",
     "@next/eslint-plugin-next": "^12.3.4",
     "@storybook/addon-a11y": "^6.5.16",
