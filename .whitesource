@@ -41,7 +41,8 @@
           "groupName": "Dependencies",
           "matchPaths": ["**/pom.xml", "packages/**/package.json"],
           "packagePatterns": ["*"]
-        }
+        } 
+    ]
 
   },
    "imageSettings":{
