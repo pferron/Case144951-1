@@ -34,7 +34,15 @@
     "extends": ["config:base"];
     "workflowRules": {
       "enabled": true
-    }
+    },
+
+  "packageRules": [
+        {
+          "groupName": "Dependencies",
+          "matchPaths": ["**/pom.xml", "packages/**/package.json"],
+          "packagePatterns": ["*"]
+        }
+
   },
    "imageSettings":{
        "imageTracing":{
