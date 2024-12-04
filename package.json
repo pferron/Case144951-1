@@ -115,7 +115,7 @@
     "next": "^12.3.4",
     "next-absolute-url": "1.2.2",
     "node-mocks-http": "^1.15.0",
-    "nx": "19.5.3",
+    "nx": "19.8.14",
     "prettier": "^2.8.8",
     "puppeteer": "19.6.3",
     "react": "^18.3.1",
