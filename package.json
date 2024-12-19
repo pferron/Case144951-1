@@ -117,7 +117,7 @@
     "node-mocks-http": "^1.15.0",
     "nx": "19.5.3",
     "prettier": "^2.8.8",
-    "puppeteer": "19.6.3",
+    "puppeteer": "23.11.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-intersection-observer": "^9.10.3",
